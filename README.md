@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Rule-Engine-With-AST
 =======
 # Simple Rule Engine Application
@@ -111,12 +110,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ```markdown
 
-
-### Customizing the README
-- Replace `your-username` in the clone command with your actual GitHub username.
-- Add your `requirements.txt` file with necessary dependencies for the backend.
-- Adjust any sections as needed to better fit your project specifics. 
-
-Let me know if you need further modifications!
-```
->>>>>>> 3945d1c (Initial commit of the Simple Rule Engine application)
