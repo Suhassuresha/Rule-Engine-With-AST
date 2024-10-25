@@ -37,7 +37,7 @@ Prerequisites
 
 Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/simple-rule-engine.git
+git clone https://github.com/Suhassuresha/Rule-Engine-With-AST.git
 cd simple-rule-engine
 ```
 Step 2: Build and Run the Docker Containers
