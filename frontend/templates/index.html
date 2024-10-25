@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine with AST</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Rule Engine with AST</h1>
+    </header>
+    <main>
+        <section id="rule-creation">
+            <h2>Create a Rule</h2>
+            <textarea id="rule-input" placeholder="Enter your rule here..." rows="4"></textarea>
+            <button id="create-rule">Create Rule</button>
+            <div id="rule-result" class="result-display"></div>
+        </section>
+        
+        <section id="combine-rules">
+            <h2>Combine Rules</h2>
+            <input type="text" id="rule-ids" placeholder="Comma-separated Rule IDs">
+            <button id="combine-rules-btn">Combine Rules</button>
+            <div id="combine-result" class="result-display"></div>
+        </section>
+        
+        <section id="rule-evaluation" class="evaluation-section">
+            <h2>Evaluate Rule</h2>
+            
+            <h3>Input Data (Dictionary)</h3>
+            <textarea id="input-data" placeholder='{"age": 35, "department": "Sales", "salary": 60000, "experience": 3}' class="input-textarea" rows="4"></textarea>
+            
+            <h3>Combined Rule Data</h3>
+            <textarea id="combined-rule-data" placeholder='{"left": {"...": "..."}, "right": {"...": "..."}}' class="input-textarea" readonly rows="4"></textarea>
+        
+            <button id="evaluate-rule" class="evaluate-button">Evaluate</button>
+            <div id="evaluation-result" class="result-display"></div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Rule Engine With AST</p>
+    </footer>
+</body>
+</html>

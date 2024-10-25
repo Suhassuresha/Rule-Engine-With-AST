@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px 0;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+textarea,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* Consistent font size */
+    transition: border-color 0.3s; /* Smooth transition for border */
+}
+
+textarea:focus,
+input[type="text"]:focus {
+    border-color: #007BFF; /* Highlight input fields on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Ensure button has a consistent size */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#rule-result,
+#evaluation-result,
+#combine-result {
+    background-color: #f9f9f9; /* Light background for results */
+    border: 1px solid #ccc; /* Border around result area */
+    border-radius: 5px;
+    padding: 10px; /* Inner padding */
+    margin-top: 10px; /* Space above */
+    max-height: 200px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    white-space: pre-wrap; /* Preserve whitespace for better formatting */
+}
+
+.result-display {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9ecef; /* Light grey background for results */
+    font-size: 16px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    section {
+        padding: 10px; /* Reduce padding in sections */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduce font size for headers */
+    }
+}
